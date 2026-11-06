@@ -1,0 +1,186 @@
+- generic [ref=f5e2]:
+  - generic [ref=f5e3]:
+    - generic [ref=f5e4]:
+      - link [ref=f5e6] [cursor=pointer]:
+        - /url: /
+        - img "Tricentis Demo Web Shop" [ref=f5e7]
+      - list [ref=f5e10]:
+        - listitem [ref=f5e11]:
+          - link "copilot-20261106-1742@example.test" [ref=f5e12] [cursor=pointer]:
+            - /url: /customer/info
+        - listitem [ref=f5e13]:
+          - link "Log out" [ref=f5e14] [cursor=pointer]:
+            - /url: /logout
+        - listitem [ref=f5e15]:
+          - link "Shopping cart (0)" [ref=f5e16] [cursor=pointer]:
+            - /url: /cart
+            - generic [ref=f5e17]: Shopping cart
+            - generic [ref=f5e18]: (0)
+        - listitem [ref=f5e19]:
+          - link "Wishlist (0)" [ref=f5e20] [cursor=pointer]:
+            - /url: /wishlist
+            - generic [ref=f5e21]: Wishlist
+            - generic [ref=f5e22]: (0)
+      - generic [ref=f5e24]:
+        - status [ref=f5e25]
+        - textbox [ref=f5e26]: Search store
+        - button "Search" [ref=f5e27] [cursor=pointer]
+    - list [ref=f5e29]:
+      - listitem [ref=f5e30]:
+        - link "Books" [ref=f5e31] [cursor=pointer]:
+          - /url: /books
+      - listitem [ref=f5e32]:
+        - link "Computers" [ref=f5e33] [cursor=pointer]:
+          - /url: /computers
+      - listitem [ref=f5e34]:
+        - link "Electronics" [ref=f5e35] [cursor=pointer]:
+          - /url: /electronics
+      - listitem [ref=f5e36]:
+        - link "Apparel & Shoes" [ref=f5e37] [cursor=pointer]:
+          - /url: /apparel-shoes
+      - listitem [ref=f5e38]:
+        - link "Digital downloads" [ref=f5e39] [cursor=pointer]:
+          - /url: /digital-downloads
+      - listitem [ref=f5e40]:
+        - link "Jewelry" [ref=f5e41] [cursor=pointer]:
+          - /url: /jewelry
+      - listitem [ref=f5e42]:
+        - link "Gift Cards" [ref=f5e43] [cursor=pointer]:
+          - /url: /gift-cards
+    - generic:
+      - generic [ref=f5e45]:
+        - strong [ref=f5e47]: My account
+        - list [ref=f5e49]:
+          - listitem [ref=f5e50]:
+            - link "Customer info" [ref=f5e51] [cursor=pointer]:
+              - /url: /customer/info
+          - listitem [ref=f5e52]:
+            - link "Addresses" [ref=f5e53] [cursor=pointer]:
+              - /url: /customer/addresses
+          - listitem [ref=f5e54]:
+            - link "Orders" [ref=f5e55] [cursor=pointer]:
+              - /url: /customer/orders
+          - listitem [ref=f5e56]:
+            - link "Downloadable products" [ref=f5e57] [cursor=pointer]:
+              - /url: /customer/downloadableproducts
+          - listitem [ref=f5e58]:
+            - link "Back in stock subscriptions" [ref=f5e59] [cursor=pointer]:
+              - /url: /customer/backinstocksubscriptions
+          - listitem [ref=f5e60]:
+            - link "Reward points" [ref=f5e61] [cursor=pointer]:
+              - /url: /customer/rewardpoints
+          - listitem [ref=f5e62]:
+            - link "Change password" [ref=f5e63] [cursor=pointer]:
+              - /url: /customer/changepassword
+      - generic [ref=f5e65]:
+        - heading "My account - Customer info" [level=1] [ref=f5e67]
+        - generic [ref=f5e69]:
+          - generic [ref=f5e70]:
+            - strong [ref=f5e72]: Your Personal Details
+            - generic [ref=f5e73]:
+              - generic [ref=f5e74]:
+                - generic [ref=f5e75]: "Gender:"
+                - generic [ref=f5e76]:
+                  - radio "Male" [ref=f5e77]
+                  - text: Male
+                - generic [ref=f5e78]:
+                  - radio "Female" [ref=f5e79]
+                  - text: Female
+              - generic [ref=f5e80]:
+                - generic [ref=f5e81]: "First name:"
+                - textbox "First name:" [ref=f5e82]: Taylor
+                - text: "*"
+              - generic [ref=f5e83]:
+                - generic [ref=f5e84]: "Last name:"
+                - textbox "Last name:" [ref=f5e85]: Shopper
+                - text: "*"
+              - generic [ref=f5e86]:
+                - generic [ref=f5e87]: "Email:"
+                - textbox "Email:" [ref=f5e88]: copilot-20261106-1742@example.test
+                - text: "*"
+          - button "Save" [ref=f5e90] [cursor=pointer]
+  - generic [ref=f5e91]:
+    - generic [ref=f5e92]:
+      - generic [ref=f5e93]:
+        - heading "Information" [level=3] [ref=f5e94]
+        - list [ref=f5e95]:
+          - listitem [ref=f5e96]:
+            - link "Sitemap" [ref=f5e97] [cursor=pointer]:
+              - /url: /sitemap
+          - listitem [ref=f5e98]:
+            - link "Shipping & Returns" [ref=f5e99] [cursor=pointer]:
+              - /url: /shipping-returns
+          - listitem [ref=f5e100]:
+            - link "Privacy Notice" [ref=f5e101] [cursor=pointer]:
+              - /url: /privacy-policy
+          - listitem [ref=f5e102]:
+            - link "Conditions of Use" [ref=f5e103] [cursor=pointer]:
+              - /url: /conditions-of-use
+          - listitem [ref=f5e104]:
+            - link "About us" [ref=f5e105] [cursor=pointer]:
+              - /url: /about-us
+          - listitem [ref=f5e106]:
+            - link "Contact us" [ref=f5e107] [cursor=pointer]:
+              - /url: /contactus
+      - generic [ref=f5e108]:
+        - heading "Customer service" [level=3] [ref=f5e109]
+        - list [ref=f5e110]:
+          - listitem [ref=f5e111]:
+            - link "Search" [ref=f5e112] [cursor=pointer]:
+              - /url: /search
+          - listitem [ref=f5e113]:
+            - link "News" [ref=f5e114] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=f5e115]:
+            - link "Blog" [ref=f5e116] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=f5e117]:
+            - link "Recently viewed products" [ref=f5e118] [cursor=pointer]:
+              - /url: /recentlyviewedproducts
+          - listitem [ref=f5e119]:
+            - link "Compare products list" [ref=f5e120] [cursor=pointer]:
+              - /url: /compareproducts
+          - listitem [ref=f5e121]:
+            - link "New products" [ref=f5e122] [cursor=pointer]:
+              - /url: /newproducts
+      - generic [ref=f5e123]:
+        - heading "My account" [level=3] [ref=f5e124]
+        - list [ref=f5e125]:
+          - listitem [ref=f5e126]:
+            - link "My account" [ref=f5e127] [cursor=pointer]:
+              - /url: /customer/info
+          - listitem [ref=f5e128]:
+            - link "Orders" [ref=f5e129] [cursor=pointer]:
+              - /url: /customer/orders
+          - listitem [ref=f5e130]:
+            - link "Addresses" [ref=f5e131] [cursor=pointer]:
+              - /url: /customer/addresses
+          - listitem [ref=f5e132]:
+            - link "Shopping cart" [ref=f5e133] [cursor=pointer]:
+              - /url: /cart
+          - listitem [ref=f5e134]:
+            - link "Wishlist" [ref=f5e135] [cursor=pointer]:
+              - /url: /wishlist
+      - generic [ref=f5e136]:
+        - heading "Follow us" [level=3] [ref=f5e137]
+        - list [ref=f5e138]:
+          - listitem [ref=f5e139]:
+            - link "Facebook" [ref=f5e140] [cursor=pointer]:
+              - /url: http://www.facebook.com/nopCommerce
+          - listitem [ref=f5e141]:
+            - link "Twitter" [ref=f5e142] [cursor=pointer]:
+              - /url: https://twitter.com/nopCommerce
+          - listitem [ref=f5e143]:
+            - link "RSS" [ref=f5e144] [cursor=pointer]:
+              - /url: /news/rss/1
+          - listitem [ref=f5e145]:
+            - link "YouTube" [ref=f5e146] [cursor=pointer]:
+              - /url: http://www.youtube.com/user/nopCommerce
+          - listitem [ref=f5e147]:
+            - link "Google+" [ref=f5e148] [cursor=pointer]:
+              - /url: https://plus.google.com/+nopcommerce
+    - generic [ref=f5e149]:
+      - text: Powered by
+      - link "nopCommerce" [ref=f5e150] [cursor=pointer]:
+        - /url: http://www.nopcommerce.com/
+    - generic [ref=f5e151]: Copyright © 2026 Tricentis Demo Web Shop. All rights reserved.

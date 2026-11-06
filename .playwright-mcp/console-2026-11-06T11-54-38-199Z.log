@@ -1,0 +1,2 @@
+[   50952ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/top-menu-triangle.png:0
+[ 1139397ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://demowebshop.tricentis.com/login:0
